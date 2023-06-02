@@ -13,6 +13,25 @@ class _HomePageState extends State<HomePage> {
 
   int indexBottomNavigationBar = 0;
 
+  // @override
+  // void initState() {
+  //   super.initState();
+  //   _pageController.addListener(_handlePageChange);
+  // }
+
+  // @override
+  // void dispose() {
+  //   _pageController.removeListener(_handlePageChange);
+  //   _pageController.dispose();
+  //   super.dispose();
+  // }
+
+  // void _handlePageChange() {
+  //   setState(() {
+  //     indexBottomNavigationBar = _pageController.page?.round() ?? 0;
+  //   });
+  // }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
